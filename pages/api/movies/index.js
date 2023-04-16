@@ -1,4 +1,4 @@
-import { getMovies } from "@/lib/mongo/movies";
+import { getMovies } from "@/lib/mongodb/movies";
 
 const handler = async (req, res) => {
     if (req.method === "GET") {
