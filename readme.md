@@ -1,5 +1,7 @@
 The new Next.js (13) MongoDB example is integrated with Typescript. Unfortunately for me, I am not as familiar with the language yet. This repository was created for those using the standard Next.js framework with only JavaScript-related files.
 
+This is based off of the [tutorial](https://www.youtube.com/watch?v=mOvW3iheF14&t=560s) by Hamed Bahram.
+
 ## Things to note
 This application using the vanilla MongoDB library. No Mongoose features and the like
 

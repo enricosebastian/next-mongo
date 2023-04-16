@@ -4,10 +4,3 @@ const nextConfig = {
 }
 
 module.exports = nextConfig;
-
-// module.exports = {
-//   webpack: (nextConfig) => {
-//     nextConfig.experiments = { ...nextConfig.experiments, topLevelAwait: true };
-//     return nextConfig;
-//   },
-// };
