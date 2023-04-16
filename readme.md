@@ -13,15 +13,15 @@ This application using the vanilla MongoDB library. No Mongoose features and the
 1. In the newly-created `.env.local` file, make sure you have these environments:
 ```
 MONGODB_URI="<db_uri_string>"
-MONGODB_DB="<collection_name>"
+NODE_ENV="DEV"
 ```
 6. Run `npm run dev`, which is the designated run script in a developer environment
 1. Test
 
 ## How to deploy (using Vercel)
 1. Link the repo to the Vercel app
-1. Create environmental variables, `MONGODB_URI` and `MONGODB_DB`
-1. Enter their string values respectively
+1. Create environmental variables, `MONGODB_URI` and `NODE_ENV`
+1. Enter their string values respectively (`NODE_ENV` is expected to have the value `PROD`)
 1. Deploy the application
 
 ## Where to get `MONDODB_URI` and `MONGODB_DB`?
