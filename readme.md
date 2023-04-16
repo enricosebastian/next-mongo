@@ -3,7 +3,8 @@ The new Next.js (13) MongoDB example is integrated with Typescript. Unfortunatel
 This is based off of the [tutorial](https://www.youtube.com/watch?v=mOvW3iheF14&t=560s) by Hamed Bahram.
 
 ## Things to note
-This application using the vanilla MongoDB library. No Mongoose features and the like
+* This application using the vanilla MongoDB library. No Mongoose features and the like.
+* This uses the sample data provided by MongoDB. Specifically, this is using the `sample_mflix` database with all of its collections.
 
 ## How to install locally
 1. Git clone the repo
